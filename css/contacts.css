@@ -1,0 +1,28 @@
+@import url("./global.css");
+@import url("./navig.css");
+@import url("./gen_container.css");
+@import url("./footer.css");
+
+.form{
+   margin-left: 1.0rem; 
+}
+.form_label{
+    margin-left: 1.0rem; 
+    font-size: 1.8rem;    
+}
+.content a{
+    text-decoration: none;
+    color:  rgb(214, 197, 210);
+    font-style: italic;
+}
+#press-contacts{
+    
+    font-weight: bolder;
+}
+h2{
+    margin-bottom: 0;
+}
+p{
+    margin-bottom: 0;
+    margin-top: 0;
+}

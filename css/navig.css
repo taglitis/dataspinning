@@ -1,0 +1,52 @@
+.navig{
+    grid-area: nv;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} 
+ 
+#press-home{
+    order:1;
+}
+
+#press-blog{
+    order:2;
+}
+
+#press-news{
+    order:3
+}
+
+#press-contacts{
+    order:4
+}
+
+.navig a{
+    color: rgb(214, 197, 210);
+    text-decoration: none;
+    font-size: 1.4rem;
+    margin:0;
+    justify-content: space-evenly;
+}
+
+@media (min-width:791px) {
+    .navig{
+        max-width: 90%;
+        width: 100%;
+        grid-area:nv;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 10px;
+        margin: auto;
+        }  
+    .navig a {
+        float:left;
+        font-size: 2rem;
+        color:rgb(214, 197, 210);
+        padding: 20px 16px;
+        text-decoration: none;
+    }    
+}

@@ -1,0 +1,42 @@
+@import url("./navig.css");
+@import url("./gen_container.css");
+@import url("global.css");
+@import url("./footer.css");
+
+
+#press-blog{
+    font-weight: bolder;
+}
+
+.photo{
+    width: auto;
+    height: auto;
+    float: none;    
+}
+
+.caption {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+@media(min-width:680px) {
+
+.figure{
+    float: none;
+    padding: 0 1rem 0 0; 
+    margin-left: 0.8rem;
+    margin: 0rem;
+} 
+
+.figure{
+    margin: auto;
+    float: left; 
+}
+
+
+
+}    

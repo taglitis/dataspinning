@@ -1,0 +1,15 @@
+@import url("./global.css");
+@import url("./navig.css");
+@import url("./gen_container.css");
+@import url("./footer.css");
+
+#press-news{
+    font-weight: bolder;
+}
+
+.content a{
+    text-decoration: none;
+    color:  rgb(214, 197, 210);
+    font-style: italic;
+}
+

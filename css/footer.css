@@ -1,0 +1,22 @@
+.footer{
+    grid-area:ft;
+    width: 85%;
+    margin: auto;
+}
+
+
+.footer p{
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    font-size: 1.1rem;
+}
+
+@media (min-width:791px) {
+    .footer{
+        grid-area:ft;
+        text-align: center;
+        font-size: 1.7rem;
+        width: 770px;
+    }
+
+} 

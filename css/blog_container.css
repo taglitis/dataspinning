@@ -1,0 +1,121 @@
+.container{
+    color: rgb(214, 197, 210);
+    display: grid;
+    background: #3f4247;
+    width: 100%;
+    align-content: center;    
+    grid-template-rows: 2.5rem 1fr 4rem;
+    grid-template-areas: 
+    "nv"
+    "cc"
+    "ft";
+}
+#press-blog{
+    font-weight: bolder; 
+}
+.content{    
+    grid-area: cc;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 90%;
+    margin: auto;
+    gap:1rem;
+ 
+}
+.content a{
+    text-decoration: none;
+}
+.card {
+    display: grid;
+    background: rgb(105, 105, 105);
+    width: 100%;
+}
+#card1{
+    order:1; 
+}
+#card2{
+    order:2;
+}
+#card3{
+    order:3; 
+}
+#card4{
+    order:4; 
+}    
+.photos{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: auto;
+    width: 100%;
+    margin-top: 1.2rem;
+}
+.card p{
+    color: rgb(214, 197, 210);
+    text-decoration: none;
+}
+.title{
+    font-weight: bold; 
+    text-transform:uppercase;
+    font-size: 2rem;
+    padding-left: 2rem;
+    padding-right:2rem;
+    margin: 0.5rem 0 1rem 0; 
+    text-align: center;
+}
+.text{
+    font-size: 1.8rem;
+    padding-left: 2rem;
+    padding-right:2rem;
+    margin: 0 0 0.5rem 0; 
+
+}
+
+@media (min-width:791px) {
+    .container{
+        margin: auto;
+        max-width: 850px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows:  60px 860px 5rem;
+        grid-template-areas: 
+        "nv"
+        "cc"        
+        "ft";
+    }
+    .content{
+        max-width: 100%;
+        grid-area: cc;    
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: minmax(300px, auto);
+        grid-template-rows: repeat(2, 430px);
+        padding-top: 0;    
+        margin-top: 0;
+        grid-template-areas: 
+        "cd1 cd2"
+        "cd3 cd4";
+    } 
+    .card {
+        width: 360px;
+
+    }
+    .photos{
+        height: 300px;
+        width: 300px;
+        padding-top: 1rem; 
+    }
+    .title{
+        font-size: 2.1rem;
+        padding-left: 1rem;
+        padding-right:1rem;
+        margin: 0.5rem 0 1rem 0; 
+    }
+
+    .text{
+        font-size: 2rem;
+        padding-left: 1rem;
+        padding-right:1rem;
+    }  
